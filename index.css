@@ -240,7 +240,8 @@ html {
 
 @media(max-width: 376px) {
     .card{
-        top: 35%;
+        top: 0%;
+        transform: translate(-50%, 0);
     }
     .btn{
         top: 1rem;
@@ -251,23 +252,14 @@ html {
     html{
         font-size: 14;
     }
-    .card{
-        top: 30%;
-    }
 }
 @media(max-width: 285px) {
     html{
         font-size: 12;
     }
-    .card{
-        top: 25%;
-    }
 }
 @media(max-width: 245px) {
     html{
         font-size: 10;
-    }
-    .card{
-        top: 20%;
     }
 }
