@@ -247,6 +247,9 @@ html {
         top: 1rem;
         left: 1rem;
     }
+    .top img{
+        margin-top: 3rem;
+    }
 }
 @media(max-width: 335px) {
     html{
